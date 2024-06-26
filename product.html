@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Flez :: Category</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/owlcarousel/owl.theme.default.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+
+		<div class="wrapper">
+
+			<header class="header">
+				<div class="header-top py-1">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-6 col-sm-4">
+								<div class="header-top-phone d-flex align-items-center h-100">
+                  <i class="fa-solid fa-phone" style="color: #B197FC;"></i>
+                  <a href = "tel: +380939776412" class = "ms-2">+380939776412</a>
+
+								</div>
+							</div>
+
+							<div class="col-sm-4 d-none d-sm-block">
+								<ul class="social-icons d-flex justify-content-center">
+									<li>
+										<a href="https://www.youtube.com/@GymBeamhu/videos">
+											<i class="fa-brands fa-youtube"></i>
+											
+										</a>
+									</li>
+									<li>
+										<a href="https://t.me/+Qyzxvo5ZgPFiOTli">
+											<i class="fa-brands fa-telegram"></i>
+
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/flex_nikolaev/">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="col-6 col-sm-4">
+								<div class="header-top-account d-flex justify-content-end">
+									<div class="btn-group me-2">
+										<div class="dropdown">
+											<button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Account
+											</button>
+											<ul class="dropdown-menu">
+												<li>
+													<a class="dropdown-item" href="#">Sign In</a>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#">Create account</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="btn-group">
+										<div class="dropdown">
+											<button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+												Lg
+											</button>
+											<ul class="dropdown-menu">
+												<li>
+													<a class="dropdown-item" href="#">UK</a>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#">EN</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- ./header-top-account -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- ./header-top -->
+
+				<div class="header-middle bg-white py-4">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+
+							<div class="col-sm-6">
+								<a href="index.html" class="header-logo h1">Flex</a>
+							</div>
+
+							<div class="col-sm-6  mt-2 mt-md-0">
+								<form action="">
+									<div class="input-group">
+										<input type="text" class="form-control" name="s" placeholder="Searching..." aria-label="Searching..." aria-describedby="button-search">
+										<button class="btn btn-outline-warning" type="submit" id="button-search">
+											<i class="fa-solid fa-magnifying-glass"></i>
+										</button>
+									</div>
+								</form>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+				<!-- ./header-middle -->
+				
+		
+			</header>
+
+			<div class="header-bottom sticky-top" id="header-nav">
+				<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+					<div class="container-fluid">
+						<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="offcanvas offcanvas-start" id="offcanvasNavbar" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+							<div class="offcanvas-header">
+								<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Catalog</h5>
+								<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+							</div>
+							<div class="offcanvas-body">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Contact</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Payment</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Delivery</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+											Catalog
+										</a>
+										<ul class="dropdown-menu dropdown-menu-end">
+											<li>
+												<a class="dropdown-item" href="category.html">Equipment</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="category.html">Creatine</a>
+											</li>
+											<li class="nav-item dropend">
+												<a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Sportswear</a>
+												<ul class="dropdown-menu dropdown-menu-end">
+													<li>
+														<a class="dropdown-item" href="#">Men's Sportswear</a>
+													</li>
+													<li>
+														<a class="dropdown-item" href="#">Women's Sportswear</a>
+													</li>
+												
+												</ul>
+											</li>
+											<li>
+												<a class="dropdown-item" href="category.html">Protein</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="category.html">Vitamins</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div>
+							<a href="#" class="btn p-1">
+								<i class="fa-solid fa-heart"></i>
+								<span class="badge text-bg-warning cart-badge bg-warning rounded-circle">3</span>
+							</a>
+
+							<button class="btn p-1" id="cart-open" type="button" data-bs-toggle="offcanvas2" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
+								<i class="fa-solid fa-cart-shopping"></i>
+								<span class="badge text-bg-warning cart-badge bg-warning rounded-circle">5</span>
+							</button>
+							
+
+					</div>
+				</nav>
+			</div>
+			<!-- ./header-bottom -->
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasCartLabel">Cart</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<div class="table-responsive">
+						<table class="table offcanvasCart-table">
+							<tbody>
+								<tr>
+									<td class="product-img-td"><a href="#"><img src="img/it1.webp"></a></td>
+									<td><a href="#">Протеїн</a></td>
+									<td>2800 грн</td>
+									<td>&times;1</td>
+									<td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button></td>
+
+								</tr>
+								<tr>
+									<td class="product-img-td"><a href="#"><img src="img/it2.jpg"></a></td>
+									<td><a href="#">Creatine</a></td>
+									<td>630 грн</td>
+									<td>&times;2</td>
+									<td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button></td>
+
+								</tr>
+								<tr>
+									<td class="product-img-td"><a href="#"><img src="img/it3.webp"></a></td>
+									<td><a href="#">Шейкер</a></td>
+									<td>500 грн</td>
+									<td>&times;1</td>
+									<td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button></td>
+
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="4"class="text-end">Сума:</td>
+									<td>4560 грн</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+					<div class="text-end ">
+					<a href="#" class="btn btn-outline-warning">Cart</a>
+					<a href="#" class="btn btn-outline-secondary">Checkout</a>
+				</div>
+					<div class="dropdown mt-3">
+						<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+							Dropdown button
+						</button>
+						<ul class="dropdown-menu">
+							<li>
+								<a class="dropdown-item closecart" href="#footer"
+								data-href="footer">Footer</a>
+							</li>
+							<li>
+								<a class="dropdown-item closecart" href="#about"
+								data-href="about">About</a>
+							</li>
+							<li>
+								<a class="dropdown-item closecart" href="#map"
+								data-href="map">Map</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+            <main class="main">
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="breadcrumbs">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="category.html">Category</a></li>
+                                    <li><span>Product Name</span></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5 col-lg-4 mb-3">
+                            <div class="bg-white h-100">
+                                <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/it1.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/it2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/it3.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/it4.webp" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/it5.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-7 col-lg-8 mb-3">
+                            <div class="bg-white product-content p-3 h-100">
+                                <h1 class="section-title h3"><span> Product name</span></h1>
+    
+                                <div class="product-price">
+                                    <small>3400</small>
+                                    2800
+                                </div>
+    
+                                <p>Protein "WHEY"</p>
+    
+                                <div class="product-add2cart">
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" value="1" min="1">
+                                        <button class="btn btn-warning"><i class="fas fa-shopping-cart"></i> Add to
+                                            cart</button>
+                                    </div>
+                                </div>
+    
+                                <div class="row mt-3">
+                                    <div class="col-lg-4 mb-2">
+                                        <div class="card h-100">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i class="fa-solid fa-shield-halved"></i> Гарантия
+                                                </h5>
+                                                <ul class="list-unstyled">
+                                                    <li>Гарантії немає</li>
+                                                    <li>Обмін товару впродовж 14 днів від дня покупки</li>
+                                                    <li>Найвища якість на ринку</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-lg-4 mb-2">
+                                        <div class="card h-100">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i class="fa-solid fa-truck-fast"></i> Доставка</h5>
+                                                <ul class="list-unstyled">
+                                                    <li>Доставка по всьому світу</li>
+                                                    <li>Самовивіз з міст України</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-lg-4 mb-2">
+                                        <div class="card h-100">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><i class="fa-regular fa-credit-card"></i> Оплата</h5>
+                                                <ul class="list-unstyled">
+                                                    <li>Готівковий розрахунок</li>
+                                                    <li>VISA/MasterCard/monobank</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+              
+    
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <div class="product-content-details bg-white p-4">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="description-tab" data-bs-toggle="tab"
+                                            data-bs-target="#description-tab-pane" type="button" role="tab"
+                                            aria-controls="description-tab-pane" aria-selected="true">Description</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="features-tab" data-bs-toggle="tab"
+                                            data-bs-target="#features-tab-pane" type="button" role="tab"
+                                            aria-controls="features-tab-pane" aria-selected="false">Features</button>
+                                    </li>
+                                    
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="description-tab-pane" role="tabpanel"
+                                        aria-labelledby="description-tab" tabindex="0">
+                                        <p>Спортивна добавка Optimum nutrition 100 whey gold standard є білком тваринного походження, який необхідний формування правильного раціону спортсмена. Білок не може накопичуватись в організмі самостійно, тому його потрібно приймати щодня. Чим важче фізичні навантаження, тим більше протеїну потрібно вживати, тому в цій ситуації Whey gold standard буде гарним варіантом.
+
+                                            Протеїн нормалізує рівень гемоглобіну, який насичує клітини киснем. Крім того, він нормалізує вироблення гормонів, які відповідають за м'язове зростання та статеву активність. Купивши whey gold standard, ви забезпечите свої м'язи будівельним матеріалом, а також зміцните кістки.
+                                            
+                                            Ця спортивна добавка здатна підвищити імунітет. Справа в тому, що білок включається до складу імунної системи людини, тому потрібно вживати його в потрібній кількості.
+                                            
+                                            Для активного м'язового зростання необхідно підвищити кількість протеїну в раціоні. На 1 кг своєї ваги слід вживати 2 г білка. Таким чином, ви забезпечите пошкоджені м'язові волокна будівельним матеріалом, і вони швидко зростатимуть.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="features-tab-pane" role="tabpanel"
+                                        aria-labelledby="features-tab" tabindex="0">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">Tastes</th>
+                                                    <td>Strawberries, berry, vanilla, chocolade</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Sizes</th>
+                                                    <td>1kg, 2kg, 2,5kg</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <section class="new-products">
+                    <div class="container-fluid">
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <h2 class="section-title">
+                                    <span>Новинки</span>
+                                </h2>
+                            </div>
+                        </div>
+    
+                        <div class="owl-carousel owl-theme owl-carousel-full">
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                    <div class="offer-new">New</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it1.webp" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Protein "WHEY"</a>
+                                    </h4>
+                                    <p class="product-excerpt">Naturally flavored GOLD STANDARD</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            <small>3400 грн</small>
+                                            2800 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it2.jpg" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Creatine</a>
+                                    </h4>
+                                    <p class="product-excerpt">KFD Premium</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            630 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <!-- <div class="offer-hit">Hit</div>
+                                    <div class="offer-new">New</div> -->
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it3.webp" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Шейкер</a>
+                                    </h4>
+                                    <p class="product-excerpt">Blender Bottle</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            500грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it4.webp" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Лямки для тяжкої атлетики</a>
+                                    </h4>
+                                    <p class="product-excerpt">RDX sport wear</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            <small>500 грн</small>
+                                            300 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                    <div class="offer-new">New</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it5.jpg" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Предтренувальний напій</a>
+                                    </h4>
+                                    <p class="product-excerpt">NRG MAX</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            <small>900 грн</small>
+                                            830 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                    <div class="offer-new">New</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it6.jpg" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Гантелі</a>
+                                    </h4>
+                                    <p class="product-excerpt">Starfit (1.25кг)</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            <small>340 грн</small>
+                                            270 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                    <div class="offer-new">New</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it7.webp" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Пояс</a>
+                                    </h4>
+                                    <p class="product-excerpt">Пояс фіксуючий для тяжкої атлетики</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            <small>1950 грн</small>
+                                            1800 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-card">
+                                <div class="product-card-offer">
+                                    <div class="offer-hit">Hit</div>
+                                    <div class="offer-new">New</div>
+                                </div>
+                                <div class="product-thumb">
+                                    <a href="product.html"><img src="img/it8.jpg" alt=""></a>
+                                </div>
+                                <div class="product-details">
+                                    <h4>
+                                        <a href="product.html">Шорти</a>
+                                    </h4>
+                                    <p class="product-excerpt">Шорти спортивні nike жіночі</p>
+                                    <div class="product-bottom-details d-flex justify-content-between">
+                                        <div class="product-price">
+                                            <small>3400 грн</small>
+                                            2800 грн
+                                        </div>
+                                        <div class="product-links">
+                                            <a href="#" class="btn btn-outline-secondary add-to-cart"><i
+                                                    class="fas fa-shopping-cart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </section>
+    
+            </main>
+
+			<footer class="footer" id="footer">
+				<div class="container-fluid">
+					<div class="row">
+					<div class="col-md-3 col-6">
+						<h4>Інформація</h4>
+						<ul class="list-unstyled">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">Payment</a></li>
+							<li><a href="#">Delivery</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+
+					</div>
+					<div class="col-md-3 col-6">
+						<h4>Графік роботи</h4>
+						<ul class="list-unstyled">
+							<li>Миколаїв, вул.Соборна 12</li>
+							<li>Пн-Пт:9:00-19:00</li>
+							<li>Сб:10:00-17:00</li>
+							<li>Нд:вихідний</li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-6">
+						<h4>Контакти</h4>
+						<ul class="list-untyled">
+							<li><a href="tel: +380939776412">+380939776412</a> </li>
+							<li><a class="footer__link" href="mailto:flexsportpit7777%40gmail.com"> flexsportpit7777@gmail.com </a></li>
+							
+						</ul>
+					</div>
+					<div class="col-md-3 col-6">
+						<h4>Слідкуйте за нами</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"></a><i class="fa-brands fa-youtube"></i></li>
+							<li><a href="#"></a><i class="fa-brands fa-telegram"></i></li>
+								<li><a href="#"></a><i class="fa-brands fa-instagram"></i></li>
+										
+						</ul>
+					</div>
+					</div>
+					</div>
+				</footer>
+		</div>
+<button id="top">
+	<i class="fa-solid fa-angles-up"></i>
+</button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
